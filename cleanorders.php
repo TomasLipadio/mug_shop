@@ -1,7 +1,7 @@
 <?
 session_start();
 if (isset($_SESSION['login']) && isset($_SESSION['adminmode'])) {
-	file_put_contents('files/orderscurrentdates_9jd2U9d2uqxDk29dqUsj2.txt', '');
+    file_put_contents('files/orderscurrentdates_9jd2U9d2uqxDk29dqUsj2.txt', '');
     file_put_contents('files/orderslogins_9jd2U9d2uqxDk29dqUsj2.txt', '');
     file_put_contents('files/ordersfullnames_9jd2U9d2uqxDk29dqUsj2.txt', '');
     file_put_contents('files/ordersphonenumbers_9jd2U9d2uqxDk29dqUsj2.txt', '');
