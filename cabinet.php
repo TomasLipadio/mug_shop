@@ -23,7 +23,13 @@
 				echo '</select></p>
 				<p><input style="height: 50px; width: 200px; font-size: 22px; cursor:pointer;" type="submit" value="Опубликовать"></p>
 				</form></p>';	
-							
+				
+				echo '<p><b>Добавить произвольную новость дня:</b><br>
+				<form action="add_daynews2.php" method="POST" >
+				<input type="text" size="40" name="daynews2" required></p>
+				<input style="height: 50px; width: 200px; font-size: 22px; cursor:pointer;"  type="submit" value="Добавить новость дня">
+				</form></p>';
+				
 				echo '<p><b>Выбрать рекламный баннер:</b><br>
 							
 				<form method="post" enctype="multipart/form-data" action="add_banner.php">
